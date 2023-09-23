@@ -1,5 +1,24 @@
 <html>
-  <body>
-    <h1>UWU</h1>
-  </body>
+<title>IT_WEB_PRACTICE</title>
+<body style="background-color:#454545;"
+    </body>
+<center>
+<font size= "-5"><h1 style="color:#FFAE42;">IT WEB PRACTICE</h1></font>
+
+<form action= "<?= $_SERVER['PHP_SELF'] ?>" method="POST">
+    <font size='-5'><label style="color:white;">Gmail or Username</label></font>
+    <br>
+    <input style="text"/>
+    <br>
+    <br>
+    <font size="-5"><label style="color:white;">password</label></font>
+    <br>
+    <input type="password"/>
+    <br>
+    <font size= "-7"><a href="forgotpass.php">forgot password</a></font>
+    <br><br>
+    <input type="submit" value="Log in" /></form>
+    <form method="POST" action="signin_path.php">
+      <input type="submit" value="Sign in"/>
+</center>
 </html>
